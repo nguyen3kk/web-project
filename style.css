@@ -1,0 +1,68 @@
+/* Thiết lập chung cho body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tạo kiểu cho thẻ header */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Tạo kiểu cho thẻ nav */
+nav {
+    background-color: #34495e;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* Tạo kiểu cho thẻ li (hiển thị inline-block và có chiều rộng) */
+nav li {
+    display: inline-block;
+    width: 120px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Tạo kiểu cho thẻ main (màu nền và kích thước phông chữ) */
+main {
+    background-color: #ecf0f1;
+    padding: 30px;
+    font-size: 16px;
+    min-height: 400px;
+}
+
+/* Tạo kiểu cho thẻ h1 (căn chỉnh văn bản, họ phông chữ và màu sắc) */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #2c3e50;
+}
+
+/* Tạo kiểu cho thẻ p (chiều cao dòng) */
+p {
+    line-height: 1.6;
+}
+
+/* Tạo kiểu cho thẻ footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
